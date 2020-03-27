@@ -17,10 +17,10 @@ public class UserController {
     PersonService personService;
 
 
-    @ApiOperation(value = "get number",notes = "get  static number three ")
+    @ApiOperation(value = "get user name",notes = "get  static user name ")
     @GetMapping(value = "/get")
     public String getIntValue(){
-        return "three";
+        return "Thusitha Niroshan";
 
     }
 }
